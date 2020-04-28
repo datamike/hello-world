@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: https://github.com/datamike/hello-world@v1 # actions/hello-world@v1
+      uses: actions/hello-world@v1
       with:
         who-to-greet: 'Weiner Dog'
     # Use the output from the `hello` step
